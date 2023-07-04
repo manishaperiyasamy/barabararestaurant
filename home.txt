@@ -1,0 +1,108 @@
+<html>
+<head>
+<title>Home</title>
+  
+		 <nav>
+    <ul>
+	<li><a href="index.html">Gallery</a></li>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="review.html">Review</a></li>
+	  <li><a href="order.html">Order</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    
+    </ul>
+  </nav>
+<h1 class="heading-style">Welcome To Our Restaurant</h1>
+
+
+<h1 style="color:green"><b>Description</b></h1>
+<style>
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.blinking-button {
+  animation:blinker 1.5s linear infinite;
+   color: green;
+	font-size:200%;
+     font-family: sans-serif;
+  
+}
+.blink {
+                animation: blinker 1.5s linear infinite;
+                color: brown;
+				font-size:200%;
+                font-family: sans-serif;
+            }
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
+
+  .p-style {
+    color: black;
+	font-family: Fjalla One;
+    font-size: 20px;
+   }
+   .heading-style {
+    color: white;
+    font-size: 45px;
+    text-align:center;
+	background-color:blue;
+	
+  }
+  
+  
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+  
+  
+  nav ul {
+	
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #f1f1f1;
+    }
+
+    nav li {
+      align:right;
+    }
+
+    nav li a {
+      display: block;
+      color: blue;
+	  font-size:150%;
+      text-align: left;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+  
+    nav li a:hover {
+      background-color:mediumseagreen;
+    }
+  </style>
+  
+  <body>
+    <p class ="p-style">Welcome to Barbara Restaurant,where culinary delights and warm hospitality come together to create an unforgettable dining experience.
+  <br>
+  <br>
+   Whether you are joining us for a casual launch,romantic dinner,or a special celebration ,our restaruant promises to captivate your senses and leave you craving for more.
+  <br>
+  <br>
+  The warm lighting, comfortable seating, and tasteful decor create an intimate and inviting atmosphere for you to unwind and savor your dining experience.
+  </body>
+
+  </html>
